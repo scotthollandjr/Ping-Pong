@@ -5,8 +5,43 @@
     <link href="../css/styles.css" rel="stylesheet" type="text/css">
     <script src="../js/jquery-1.11.3.js"></script>
     <script src="../js/scripts.js"></script>
-    <title>Ping-Pong</title>
+    <title>Ping Pong</title>
   </head>
   <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12"> <!-- header column -->
+          <h1>Ping Pong!</h1>
+        </div> <!-- header column -->
+
+        <div class="col-xs-4"> <!-- left column -->
+          <h3>About Ping Pong</h3>
+          <h4>Created by:</h4>
+          <p>Scott Holland</p>
+          <h4>GitHub Username/URL:</h4>
+          <a href="https://github.com/theAppanaut">theAppanaut</a>
+          <h4>Level 2 Test for:</h4>
+          <p>Epicodus <em>Java</em> course</p>
+        </div> <!-- left column -->
+
+        <div class="col-xs-8"> <!-- right column -->
+          <h2>Let's play!</h2>
+          <h3>Rules:</h3>
+          <p>Enter a number and Ping Pong will count up from 1 and ending at the original number. The list will be altered to do the following:
+          <ul>
+            <li>Replace numbers divisible by 3 with "ping"</li>
+            <li>Replace numbers divisible by 5 with "pong"</li>
+            <li>Replace numbers divisible by 15 "ping pong"</li>
+          </ul>
+          <form>
+            <div class="form-group">
+              <label for="userEntry">Enter your number here:</label>
+              <input type="text" class="form-control" id="userEntry">
+            </div> <!-- class="form-group" -->
+            <button type="submit" class="btn">Ping Pong!</button>
+          </form>
+        </div> <!-- right column -->
+      </div> <!-- class="row" -->
+    </div> <!-- class="container-fluid" -->
   </body>
 </html>
