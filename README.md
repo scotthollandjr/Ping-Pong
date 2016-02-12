@@ -4,7 +4,7 @@
 
 #### By _**Scott Holland, Jr.**_
 
-Ping-Pong project for Level 2 Placement. This project will demonstrate proficiency in Markdown, HTML, CSS, Bootstrap, JavaScript, jQuery, BDD, and Git.
+Ping-Pong project for Level 2 Placement for Epicodus. This project will demonstrate proficiency in Markdown, HTML, CSS, Bootstrap, JavaScript, jQuery, BDD, and Git.
 
 The user will enter a number and be shown a range of numbers starting from 1 and ending at the original number. The list will be altered to do the following:
 
