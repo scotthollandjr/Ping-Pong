@@ -1,0 +1,27 @@
+/*** COLUMN STYLE */
+
+body {
+  background-color: #E6E6E6;
+}
+
+.top {
+  background-color: #F5DFB3;
+}
+
+.left {
+  background-color: #8FBC8E;
+}
+
+/*** FONT STYLE */
+
+.top h1 {
+  text-align: center;
+}
+
+.left h4 {
+  color: #F5DFB3;
+}
+
+.left p {
+  color: #fff;
+}
