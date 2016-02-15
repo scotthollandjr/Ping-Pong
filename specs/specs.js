@@ -1,6 +1,6 @@
-describe('', function() {
-  it('', function() {
-    expect(()).to.equal("")
+describe('pingPong', function() {
+  it('returns numbers divisible by 3 as ping', function() {
+    expect(pingPong(3)).to.equal("ping")
   });
 });
 
