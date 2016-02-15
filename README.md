@@ -10,7 +10,7 @@ The user will enter a number and be shown a range of numbers starting from 1 and
 
 * Replace numbers divisible by 3 with "ping"
 * Replace numbers divisible by 5 with "pong"
-* Replace numbers divisible by 15 "ping-pong"
+* Replace numbers divisible by 15 "pingpong"
 
 #### Technologies Used
 
