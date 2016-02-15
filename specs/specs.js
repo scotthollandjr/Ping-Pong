@@ -5,6 +5,9 @@ describe('pingPong', function() {
   it('returns numbers divisible by 5 as pong', function() {
     expect(pingPong(5)).to.equal("pong")
   });
+  it('returns numbers divisible by 15 as ping pong', function() {
+    expect(pingPong(15)).to.equal("ping pong")
+  });
 });
 
 // return number divisible by 3 as ping
