@@ -13,12 +13,17 @@ var pingPong = function(currentNum) {
   }
 }
 
-
+var print = function() {
+  for (var i = 1; i <= upper; i++) {
+    var addToList = pingPong(i);
+    $("ul#results").append("<li>" + addToList + "</li>");
+  }
+}
 
 $(document).ready(function() {
   $("form#entry").submit(function(event) {
     upper = $("input#userEntry").val();
-
+    print();
     event.preventDefault();
   });
 });
