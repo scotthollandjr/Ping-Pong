@@ -23,6 +23,7 @@ var print = function() {
 $(document).ready(function() {
   $("form#entry").submit(function(event) {
     upper = $("input#userEntry").val();
+    $("ul#results").empty();
     print();
     event.preventDefault();
   });
